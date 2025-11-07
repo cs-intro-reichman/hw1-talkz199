@@ -22,17 +22,13 @@ public class TimeFormat {
 		{
 			 hours = hours - 12;
 			 status = "PM";
-			if (hours<11) {
-			System.out.print("0" + hours);
-			} else {System.out.print(hours);}
-			
+			System.out.print(hours);
+		
 
 
 		} else { System.out.print(hours);}
 		System.out.print(":");
-
-
-
+		
 		if (minutes < 10) {
 			System.out.print("0" + minutes);
 		} else {System.out.print(minutes);}
